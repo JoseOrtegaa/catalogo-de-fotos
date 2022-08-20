@@ -1,0 +1,30 @@
+form {
+  height: 2.5rem;
+  background-color: rgba(106, 106, 106, 0.477);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+form > input {
+  height: 2rem;
+  width: 40%;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+form > label {
+  font-size: 1.6rem;
+}
+
+form > button {
+  background-color: rgba(3, 87, 255, 0.811);
+  height: 2rem;
+  width: 5rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 3px;
+  color: #f4f0f0;
+  font-size: 1.1rem;
+}

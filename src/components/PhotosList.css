@@ -1,0 +1,29 @@
+ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  gap: 2rem;
+  list-style-type: none;
+  margin-bottom: 5rem;
+}
+
+ul > li {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+ul > li:hover {
+  background-color: rgba(111, 111, 111, 0.174);
+}
+
+ul > li > button {
+  width: 10rem;
+  height: 2rem;
+  margin: 0 auto;
+  margin: 0.5rem;
+  background: rgba(3, 87, 255, 0.285);
+  border-radius: 2px;
+  border: none;
+  font-size: 1.1rem;
+}

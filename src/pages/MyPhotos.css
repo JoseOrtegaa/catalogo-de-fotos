@@ -1,0 +1,9 @@
+section > div {
+  height: 2.5rem;
+  background-color: rgba(106, 106, 106, 0.477);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  color: #000000;
+}

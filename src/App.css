@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(236, 236, 236, 0.785);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  background: rgba(3, 87, 255, 0.811);
+}
+
+header > h1 {
+  color: #f4f0f0;
+  padding: 1rem;
+}
+
+header > nav {
+  height: 4rem;
+  width: 30%;
+}
+
+header > nav > ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+header > nav > ul > li {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+}
+
+header > nav > ul > li > button {
+  background-color: transparent;
+  border: none;
+  height: 4rem;
+  width: 100%;
+  font-size: 1.2rem;
+  color: #f4f0f0;
+  cursor: pointer;
+  margin: 0;
+}
+
+.active {
+  background-color: rgba(3, 87, 255, 0.639);
+  cursor: auto;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 3rem;
+  width: 100%;
+  color: #f4f0f0;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgb(37, 37, 37);
+}
